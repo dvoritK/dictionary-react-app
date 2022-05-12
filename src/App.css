@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Klee One", cursive;
+}
+.container {
+  background-image: url(./background.webp);
+}
+footer {
+  margin-top: 10px;
+}
