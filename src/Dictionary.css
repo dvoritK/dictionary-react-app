@@ -1,3 +1,31 @@
 .Dictionary {
   margin-top: 10px;
+  text-align: center;
+  background-image: url(./background.webp);
+  margin-bottom: 30px;
+  border-radius: 3px;
+  padding-bottom: 15px;
+}
+h5 {
+  color: #d6d1cd;
+  position: relative;
+  top: 40px;
+}
+.searchEngine {
+  background: rgb(22, 128, 103, 0.9);
+  position: relative;
+  top: 20px;
+  margin-right: 450px;
+  margin-left: 450px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+form {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.search {
+  width: 300px;
 }

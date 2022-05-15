@@ -22,10 +22,14 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={handleSubmit}>
-        <input type="search" onChange={newKeyword} />
-        <input type="submit" value="🔍" />
-      </form>
+      <div className="searchEngine">
+        <h5>What word do you want to look up?</h5>
+        <form onSubmit={handleSubmit}>
+          <input type="search" className="search" onChange={newKeyword} />
+          <input type="submit" className="submit" value="🔍" />
+        </form>
+      </div>
+      <br />
       <Results results={result} />
     </div>
   );

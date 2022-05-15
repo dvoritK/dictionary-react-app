@@ -8,14 +8,28 @@ function App() {
         <header className="App-header">
           <main>
             <h1>Dictionary</h1>
-            <h5>What word do you want to look up?</h5>
             <Dictionary />
           </main>
         </header>
       </div>
       <footer>
-        {" "}
-        <small>Coded by Dvorit Karpf-Cogan</small>
+        <a
+          href="https://github.com/dvoritK/dictionary-react-app.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          open-source code
+        </a>{" "}
+        <span className="coded-by">by Dvorit Karpf-Cogan and </span>
+        <a
+          href="https://fancy-dasik-f5d206.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="netlify-link"
+        >
+          hosted on Netlify
+        </a>
       </footer>
     </div>
   );
