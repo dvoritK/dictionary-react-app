@@ -1,3 +1,7 @@
+.results {
+  display: flex;
+}
+
 section {
   background: rgb(214, 209, 205, 0.9);
   margin-top: 20px;

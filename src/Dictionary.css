@@ -12,14 +12,18 @@ h5 {
   top: 40px;
 }
 .searchEngine {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 20px;
   background: rgb(22, 128, 103, 0.9);
-  position: relative;
+  /* position: relative;
   top: 20px;
   margin-right: 450px;
   margin-left: 450px;
-  margin-bottom: 8px;
+  margin-bottom: 8px;*/
   border-radius: 10px;
   padding-bottom: 20px;
+  width: 500px;
 }
 form {
   margin-top: 30px;

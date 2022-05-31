@@ -1,4 +1,6 @@
 .App {
+  margin: 0 auto;
+  display: block;
   text-align: center;
   font-family: "Klee One", cursive;
   max-width: 60% auto;
