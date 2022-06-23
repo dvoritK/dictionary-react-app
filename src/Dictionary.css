@@ -6,18 +6,18 @@
   margin-bottom: 30px;
   border-radius: 3px;
   padding-bottom: 15px;
-  width: 1200px;
+  max-width: 1200px;
+  padding: 0 20px;
   position: relative;
 }
 h5 {
   color: #d6d1cd;
-  position: relative;
+  position: absolute;
   top: 40px;
 }
 .searchEngine {
-  margin: 0 auto;
+  margin: 20px auto;
   display: inline-block;
-  margin-top: 20px;
   background: rgb(22, 128, 103, 0.9);
   /* position: relative;
   top: 20px;

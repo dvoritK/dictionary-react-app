@@ -1,7 +1,9 @@
 .Results {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 section {
@@ -10,7 +12,8 @@ section {
   border-radius: 20px;
   text-align: left;
   padding: 20px 30px;
-  flex: 0 1 auto;
+  max-width: 1000px;
+  justify-self: center;
 }
 h2 {
   font-family: "Nerko One", cursive;
